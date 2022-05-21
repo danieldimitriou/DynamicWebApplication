@@ -1,0 +1,69 @@
+[17-May-2022 20:07:34 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\DynamicWebApplication\public\index.php(56): Core\Router->dispatch('public/css/styl...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\DynamicWebApplication\Core\Router.php' on line 98
+[17-May-2022 20:10:18 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\DynamicWebApplication\public\index.php(56): Core\Router->dispatch('action_page.php')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\DynamicWebApplication\Core\Router.php' on line 98
+[17-May-2022 20:10:18 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\DynamicWebApplication\public\index.php(56): Core\Router->dispatch('public/css/styl...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\DynamicWebApplication\Core\Router.php' on line 98
+[17-May-2022 20:10:58 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\DynamicWebApplication\public\index.php(56): Core\Router->dispatch('action_page.php')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\DynamicWebApplication\Core\Router.php' on line 98
+[17-May-2022 20:10:58 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\DynamicWebApplication\public\index.php(56): Core\Router->dispatch('public/css/styl...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\DynamicWebApplication\Core\Router.php' on line 98
+[17-May-2022 20:12:26 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\DynamicWebApplication\public\index.php(56): Core\Router->dispatch('action_page.php')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\DynamicWebApplication\Core\Router.php' on line 98
+[17-May-2022 20:12:26 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\DynamicWebApplication\public\index.php(56): Core\Router->dispatch('public/css/styl...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\DynamicWebApplication\Core\Router.php' on line 98
+[17-May-2022 20:35:42 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\DynamicWebApplication\public\index.php(56): Core\Router->dispatch('public/css/styl...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\DynamicWebApplication\Core\Router.php' on line 98
+[17-May-2022 20:35:47 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\DynamicWebApplication\public\index.php(56): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\DynamicWebApplication\Core\Router.php' on line 98
+[17-May-2022 20:35:47 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\DynamicWebApplication\public\index.php(56): Core\Router->dispatch('public/css/styl...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\DynamicWebApplication\Core\Router.php' on line 98
+[17-May-2022 20:35:50 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\DynamicWebApplication\public\index.php(56): Core\Router->dispatch('products/_form')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\DynamicWebApplication\Core\Router.php' on line 98
+[17-May-2022 20:35:50 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\DynamicWebApplication\public\index.php(56): Core\Router->dispatch('public/css/styl...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\DynamicWebApplication\Core\Router.php' on line 98
+[17-May-2022 20:35:55 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Products not found'
+Stack trace: #0 C:\xampp\htdocs\DynamicWebApplication\public\index.php(56): Core\Router->dispatch('products/form')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\DynamicWebApplication\Core\Router.php' on line 94
+[17-May-2022 20:35:55 Europe/Berlin] PHP Fatal error:  Uncaught ErrorException: require(App/Views/common/head.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\DynamicWebApplication\App\Views\500.php:2
+Stack trace:
+#0 C:\xampp\htdocs\DynamicWebApplication\App\Views\500.php(2): Core\Error::errorHandler(2, 'require(App/Vie...', 'C:\\xampp\\htdocs...', 2)
+#1 C:\xampp\htdocs\DynamicWebApplication\App\Views\500.php(2): require()
+#2 C:\xampp\htdocs\DynamicWebApplication\Core\View.php(17): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\DynamicWebApplication\Core\Error.php(57): Core\View::render('500.php')
+#4 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#5 {main}
+  thrown in C:\xampp\htdocs\DynamicWebApplication\App\Views\500.php on line 2
+[17-May-2022 20:36:54 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\DynamicWebApplication\public\index.php(56): Core\Router->dispatch('action_page.php')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\DynamicWebApplication\Core\Router.php' on line 98
+[17-May-2022 20:36:54 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched'
+Stack trace: #0 C:\xampp\htdocs\DynamicWebApplication\public\index.php(56): Core\Router->dispatch('public/css/styl...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\DynamicWebApplication\Core\Router.php' on line 98
