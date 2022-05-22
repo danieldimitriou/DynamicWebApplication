@@ -1,4 +1,6 @@
 <?php
+namespace Core\Database;
+
 class Database {
     private $dbHost = DB_HOST;
     private $dbUser = DB_USER;
@@ -26,7 +28,8 @@ class Database {
 
     //Allows us to write queries
     public function query($sql){
-        $this->statement = $this->dbHandler->prepare($sql);
+        $statement = $this->statement = $this->dbHandler->prepare($sql);
+        return $statement;
     }
 
     //Bind values

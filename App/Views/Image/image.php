@@ -10,14 +10,19 @@
 </form>
 <?php
 $image = $_FILES['image'] ?? null;
+$imagePath = '';
 if($image){
+//    $imagePath = 'images/'.randomString(8)
+
+
+
     move_uploaded_file($image['tmp_name'],'test.jpg');
 }
 
 
 
 foreach($images as $image){
-    echo "{$image['fname']} " . "{$image['type']} " . "{$image['userID']}";
+    echo "{$image['ID']} " . "{$image['userID']} " . "{$image['description']}" . "{$image['photoLink']}";
     echo "<br>";
     echo '<pre>';
     var_dump($_FILES);

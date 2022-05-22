@@ -5,6 +5,7 @@ namespace App\Controllers;
 use \Core\View;
 use \App\Models\Image;
 
+
 class Images extends \Core\Controller
 {
     #Show the index page
@@ -15,7 +16,7 @@ class Images extends \Core\Controller
 
         View::render('Image/image.php'
             ,[
-            'images'=> $images
+                'images'=>$images
         ]
         );
     }
