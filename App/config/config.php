@@ -1,7 +1,7 @@
 <?php
 //Database params
 define('DB_HOST', 'localhost');
-define('DB_USER', 'dionisis');
+define('DB_USER', 'daniel');
 define('DB_PASS', 'secret');
 define('DB_NAME', 'carShare');
 
@@ -21,4 +21,4 @@ define('SITENAME', 'Car Share');
 const SECRET_KEY = '';
 
 const MAILGUN_API_KEY = '';
-const MAILGUN_DOMAIN = '';
+const MAILGUN_DOMAIN =  '';
